@@ -1,0 +1,147 @@
+.tier-container {
+    font-family: 'Karla', sans-serif;
+}
+
+.wf section {
+    box-sizing: border-box;
+} 
+
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+.tiers-grid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-auto-flow: row;
+    grid-column-gap: 45px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.t-container {
+    max-width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.b-pic {
+    width: 278px;
+    height: 434px;
+    border-radius: 10px;
+    background-color: black;
+    background-position: 0px 0px;
+    background-size: auto;
+    opacity: 0.8;
+}
+
+.b-button {
+    position: relative;
+    left: 70px;
+    top: 350px;
+    right: 70px;
+    bottom: auto;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    margin: 0px auto;
+    padding-top: 9px;
+    border-radius: 5px;
+    background-color: #c3630a;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.c-pic {
+    width: 278px;
+    height: 588px;
+    border-radius: 10px;
+    background-color: black;
+    background-position: 0px 0px;
+    background-size: auto;
+    opacity: 0.8;
+}
+
+.c-button {
+    position: relative;
+    left: 70px;
+    top: 504px;
+    right: 70px;
+    bottom: auto;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    margin: 0px auto;
+    padding-top: 9px;
+    border-radius: 5px;
+    background-color: #c3630a;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.j-pic {
+    width: 278px;
+    height: 712px;
+    border-radius: 10px;
+    background-color: black;
+    background-position: 0px 0px;
+    background-size: auto;
+    opacity: 0.8;
+}
+
+.j-button {
+    position: relative;
+    left: 70px;
+    top: 628px;
+    right: 70px;
+    bottom: auto;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    margin: 0px auto;
+    padding-top: 9px;
+    border-radius: 5px;
+    background-color: #c3630a;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.membership {
+    position: relative;
+    left: 0px;
+    top: auto;
+    bottom: 216px;
+    width: 645px;
+    height: 118px;
+    border-radius: 10px;
+    background-color: #5f7880;
+    opacity: 0.71;
+}
+
+.text-block-2 {
+    padding: 20px 20px 0px;
+    border-color: #fff;
+    color: #fefefe;
+    font-size: 50px;
+    text-align: center;
+}
